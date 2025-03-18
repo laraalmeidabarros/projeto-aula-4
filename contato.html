@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <img src="imgs/Banner.webp" width="500">
+
+        <nav>
+
+            <a href="index.html">HOME</a>|
+            <a href="musica.html">Músicas para progromação</a>|
+            <a href="aulas.html">Aulas Grátis</a>|
+            <a href="planos.html">Planos</a>|
+            <a href="contato.html">Contato</a>|
+
+            <br>
+        </nav>
+        <h1>Formulário de Contato</h1>
+    
+    <form action="/enviar" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    
+</body>
+</html>
